@@ -2,6 +2,7 @@ package com.example.pruebatecnica
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.android.volley.toolbox.Volley
 
 class MainActivity : AppCompatActivity() {
 
@@ -9,4 +10,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
     }
+
+    fun test() {
+
+    }
 }
+
+
